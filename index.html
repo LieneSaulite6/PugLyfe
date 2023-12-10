@@ -1,0 +1,634 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PugLyfe | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+
+            <a href="./index.html">
+                <h2 class="logo">PugLyfe</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="./index.html" class="list-link">Home</a>
+                    </li>
+
+                    <li class="list-item">
+                        <a href="./categories.html" class="list-link">Categories</a>
+                    </li>
+
+                    <li class="list-item">
+                        <a href="./about.html" class="list-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner wrapper">
+
+            <form action="" class="form">
+                <input type="text" class="form-input" name="search" id="search" placeholder="What are looking for?" autocomplete="chrome-off">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+            <div class="results">
+                <ul></ul>
+            </div>
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Bark-breaking News</span>
+                    </h3>
+                    <span class="headline-description">PugLyfe Unleashes the Latest Tails of Tail-Wagging Tales, Fashion Flair, and Pawesome Adventures! 🐾</span>
+                </div>
+
+                <a href="./fashion1.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/fashion1.png" alt="Pug dressed black and white with a flower crown" class="article-image">
+                    <span class="article-category">Fashion</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Nov 13 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Pawshion Forward: A Pug's Guide to Spring Trends</h3>
+
+                    </div>
+                </a>
+
+                <a href="./tales4.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/tales4.png" alt="pug flying in a galaxy full with ice creams" class="article-image">
+                    <span class="article-category">Tales</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Sep 17 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>20 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Pug Who Loved Ice Cream a Bit Too Much: A Brain Freeze Saga</h3>
+
+                    </div>
+                </a>
+
+                <a href="./art2.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/art2.png" alt="Doodle of a pug with a laptop" class="article-image">
+                    <span class="article-category">Art</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Oct 5 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Snout Sketches: The Art of Pug Doodling</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending news</h3>
+
+                <a href="./adventure2.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/adventure2.png" alt="Pug in the car" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>11 Oct 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>12 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Tales of San Francisco Streets</h3>
+
+                    </div>
+                </a>
+
+                <a href="./art3.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/art3.png" alt="Muddy paw prints" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Sep 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>16 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Paws and Prints</h3>
+
+                    </div>
+                </a>
+
+                <a href="./noms6.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/noms6.png" alt="Berry smoothie" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>27 Aug 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Berry Bliss Frozen Yogurt</h3>
+
+                    </div>
+                </a>
+
+                <a href="./adventure3.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/adventure3.png" alt="Pug shopping in Paris" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>14 Sep 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>16 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Pugventures in Paris</h3>
+
+                    </div>
+                </a>
+
+                <a href="./laughs4.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/laughs4.png" alt="Pug laughing in a sofa" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>26 Sep 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>20 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Bark Side of Life</h3>
+
+                    </div>
+                </a>
+
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- Quick read -->
+
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="./adventure6.html" class="article swiper-slide">
+                        <img src="./assets/images/adventure6.png" alt="Pug with pink glasses in Tokyo" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>31 Jul 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>20 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Tokyo Tails: A Pug's Journey Through Japan's Capital</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="./noms5.html" class="article swiper-slide">
+                        <img src="./assets/images/noms5.png" alt="Pug with a carrot cake" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>30 Sep 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>8 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Cozy Carrot Crunchies: A Veggie-Filled Treat</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="./laughs2.html" class="article swiper-slide">
+                        <img src="./assets/images/laughs2.png" alt="Pug reading newspaper in the toilet" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>17 Oct 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>12 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Snorts and Chuckles: Pug-approved Jokes to Brighten Your Day</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="./noms3.html" class="article swiper-slide">
+                        <img src="./assets/images/noms3.png" alt="Peanut butter cupcakes" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>20 Sep 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>6 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Snout-lickin' Peanut Butter Pupcakes: A Canine Cupcake Extravaganza</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="./art6.html" class="article swiper-slide">
+                        <img src="./assets/images/art6.png" alt="Graffiti with two pugs" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>6 Aug 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>8 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Pug Graffiti: Street Art with a Canine Twist</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="./tales1.html" class="article swiper-slide">
+                        <img src="./assets/images/tales1.png" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>6th Dec 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>8 Min read</span>
+                            </div>
+                            <h3 class="title article-title">The Great Sock Caper: A Pug's Tale of Sneaky Mischief</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Older posts -->
+    
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="./fashion1.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/fashion1.png" alt="Pug dressed in black and white and red flower crown" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>13 Nov 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Pawshion Forward: A Pug's Guide to Spring Trends</h3>
+                        <p class="article-description">Dive into springtime with our fashionable pug as they share the latest trends in pug couture. From floral prints to pastel accessories, our four-legged fashionista struts through the blooming gardens, proving that spring has never looked so stylish.</p>
+
+                    </div>
+                </a>
+
+            </a>
+
+            <a href="./fashion2.html" class="article d-grid">
+                <div class="older-posts-article-image-wrapper">
+                    <img src="./assets/images/fashion2.png" alt="Pug wearing a pink jacket" class="article-image">
+                </div>
+
+                <div class="article-data-container">
+
+                    <div class="article-data">
+                        <span>10 Nov 2023</span>
+                        <span class="article-data-spacer"></span>
+                        <span>12 Min read</span>
+                    </div>
+
+                    <h3 class="title article-title">Runway to Dog Park: A Year in Review of Pug Fashion</h3>
+                    <p class="article-description">Join our pug for a stylish recap of the year's hottest trends. From seasonal highlights to the most iconic fashion moments, our furry fashionista takes you on a paw-some journey through the canine couture that defined the year.</p>
+
+                </div>
+            </a>
+
+            <a href="./noms1.html" class="article d-grid">
+                <div class="older-posts-article-image-wrapper">
+                    <img src="./assets/images/noms1.png" alt="Pug eating pancakes" class="article-image">
+                </div>
+
+                <div class="article-data-container">
+
+                    <div class="article-data">
+                        <span>7 Nov 2023</span>
+                        <span class="article-data-spacer"></span>
+                        <span>8 Min read</span>
+                    </div>
+
+                    <h3 class="title article-title">Pawesome Pug Pancakes: A Fluffy Breakfast Delight</h3>
+                    <p class="article-description">Join me, your culinary canine companion, as I share the secret recipe for the fluffiest and most delightful pug pancakes. From whisking the batter to savoring the final golden stack, let's embark on a breakfast adventure that will have every pug's tail wagging with joy.</p>
+
+                </div>
+            </a>
+
+            <a href="./art1.html" class="article d-grid">
+                <div class="older-posts-article-image-wrapper">
+                    <img src="./assets/images/art1.png" alt="Vivid painting of two pugs" class="article-image">
+                </div>
+
+                <div class="article-data-container">
+
+                    <div class="article-data">
+                        <span>4 Nov 2023</span>
+                        <span class="article-data-spacer"></span>
+                        <span>6 Min read</span>
+                    </div>
+
+                    <h3 class="title article-title">Pawtraits and Masterpieces: A Pug's Guide to Canine Artistry</h3>
+                    <p class="article-description">Embark on a colorful journey as our artistic pug explores the world of pawtraits and masterpieces. From paw-dipped paintings to tail-wagging sculptures, discover the creative side of PugLyfe through the eyes of a pug artist.</p>
+
+                </div>
+            </a>
+
+            <a href="./laughs1.html" class="article d-grid">
+                <div class="older-posts-article-image-wrapper">
+                    <img src="./assets/images/laughs1.png" alt="Joking pug on a stage" class="article-image">
+                </div>
+
+                <div class="article-data-container">
+
+                    <div class="article-data">
+                        <span>1 Nov 2023</span>
+                        <span class="article-data-spacer"></span>
+                        <span>8 Min read</span>
+                    </div>
+
+                    <h3 class="title article-title">Paws and Giggles: A Pug's Guide to Canine Comedy</h3>
+                    <p class="article-description">Dive into the world of canine comedy with our pug humorist as they share a collection of paw-sitively hilarious memes, jokes, and anecdotes. From tail-wagging puns to witty observations about the human-dog dynamic, this post promises laughter that transcends the boundaries of species.</p>
+
+                </div>
+            </a>
+
+            <a href="./tales1.html" class="article d-grid">
+                <div class="older-posts-article-image-wrapper">
+                    <img src="./assets/images/tales1.png" alt="Pug in a space with socks flying around" class="article-image">
+                </div>
+
+                <div class="article-data-container">
+
+                    <div class="article-data">
+                        <span>29 Oct 2023</span>
+                        <span class="article-data-spacer"></span>
+                        <span>8 Min read</span>
+                    </div>
+
+                    <h3 class="title article-title">The Great Sock Caper: A Pug's Tale of Sneaky Mischief</h3>
+                    <p class="article-description">Join our mischievous pug storyteller as they recount the hilarious escapades surrounding their love for socks. From daring sock heists to the art of sock camouflage, this whimsical tale explores the sock-centered adventures that make every day a playful caper.</p>
+
+                </div>
+            </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="./categories-all.html" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Categories">Categories</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="./categories-adventures.html" class="article">
+                    <span class="tag-name">Adventures</span>
+                    <img src="./assets/images/category1.png" alt="Image of a pug and swimming pool" class="article-image">
+                </a>
+
+                <a href="./categories-fashion.html" class="article">
+                    <span class="tag-name">Fashion</span>
+                    <img src="./assets/images/category2.png" alt="Image of a pug with sunglasses" class="article-image">
+                </a>
+
+                <a href="categories-tales.html" class="article">
+                    <span class="tag-name">Tales</span>
+                    <img src="./assets/images/category3.png" alt="Image of a reading pug" class="article-image">
+                </a>
+
+                <a href="./categories-laughs.html" class="article">
+                    <span class="tag-name">Laughs</span>
+                    <img src="./assets/images/category4.png" alt="Image of laughing pugs" class="article-image">
+                </a>
+
+                <a href="./categories-art.html" class="article">
+                    <span class="tag-name">Art</span>
+                    <img src="./assets/images/category5.png" alt="Image of an art of a pug" class="article-image">
+                </a>
+
+                <a href="./categories-noms.html" class="article">
+                    <span class="tag-name">Noms</span>
+                    <img src="./assets/images/category6.png" alt="Image of a pug Chief" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!-- Footer -->
+
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">PugLyfe</h2>
+                </a>
+                <p class="company-description">Welcome to PugLyfe, where paws meet laughter! Our blog is your go-to spot for all things pug, brought to you by our furry friends with a flair for fun. Explore the world through Adventures, get your daily dose of laughter with Laughs, discover the latest in Fashion, indulge in some Noms, and dive into the charm of Art. Get ready to embark on a tail-wagging journey into the heart of PugLyfe!</p>
+                
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-x-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2023 PugLyfe. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="./assets/images/category1.png" class="list-link">Adventures</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./categories-fashion.html" class="list-link">Fashion</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./categories-tales.html" class="list-link">Tales</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./categories-laughs.html" class="list-link">Laughs</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./categories-art.html" class="list-link">Art</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./categories-noms.html" class="list-link">Noms</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="https://pugworld.co.uk/" class="list-link" target="_blank">Pug World Forum</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://www.pugdogclubofamerica.com/" class="list-link" target="_blank">Pug Dog Club of America</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="./about.html" class="list-link">About us</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
+
